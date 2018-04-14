@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC4AC55720828EB8002F2059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AC55620828EB8002F2059 /* AppDelegate.swift */; };
+		AC4AC55920828EB8002F2059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AC55820828EB8002F2059 /* ViewController.swift */; };
+		AC4AC55C20828EB8002F2059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4AC55A20828EB8002F2059 /* Main.storyboard */; };
+		AC4AC55E20828EBE002F2059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4AC55D20828EBE002F2059 /* Assets.xcassets */; };
+		AC4AC56120828EBE002F2059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4AC55F20828EBE002F2059 /* LaunchScreen.storyboard */; };
+		AC4AC56C20828EBF002F2059 /* HearthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AC56B20828EBF002F2059 /* HearthTests.swift */; };
+		AC4AC57720828EBF002F2059 /* HearthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AC57620828EBF002F2059 /* HearthUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC4AC56820828EBF002F2059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC4AC54B20828EB7002F2059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4AC55220828EB7002F2059;
+			remoteInfo = Hearth;
+		};
+		AC4AC57320828EBF002F2059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC4AC54B20828EB7002F2059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4AC55220828EB7002F2059;
+			remoteInfo = Hearth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC4AC55320828EB8002F2059 /* Hearth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hearth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4AC55620828EB8002F2059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC4AC55820828EB8002F2059 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC4AC55B20828EB8002F2059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC4AC55D20828EBE002F2059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC4AC56020828EBE002F2059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC4AC56220828EBE002F2059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4AC56720828EBF002F2059 /* HearthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4AC56B20828EBF002F2059 /* HearthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthTests.swift; sourceTree = "<group>"; };
+		AC4AC56D20828EBF002F2059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4AC57220828EBF002F2059 /* HearthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4AC57620828EBF002F2059 /* HearthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthUITests.swift; sourceTree = "<group>"; };
+		AC4AC57820828EBF002F2059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC4AC55020828EB7002F2059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4AC56420828EBF002F2059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4AC56F20828EBF002F2059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC4AC54A20828EB7002F2059 = {
+			isa = PBXGroup;
+			children = (
+				AC4AC55520828EB8002F2059 /* Hearth */,
+				AC4AC56A20828EBF002F2059 /* HearthTests */,
+				AC4AC57520828EBF002F2059 /* HearthUITests */,
+				AC4AC55420828EB8002F2059 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC4AC55420828EB8002F2059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC4AC55320828EB8002F2059 /* Hearth.app */,
+				AC4AC56720828EBF002F2059 /* HearthTests.xctest */,
+				AC4AC57220828EBF002F2059 /* HearthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC4AC55520828EB8002F2059 /* Hearth */ = {
+			isa = PBXGroup;
+			children = (
+				AC4AC55620828EB8002F2059 /* AppDelegate.swift */,
+				AC4AC55820828EB8002F2059 /* ViewController.swift */,
+				AC4AC55A20828EB8002F2059 /* Main.storyboard */,
+				AC4AC55D20828EBE002F2059 /* Assets.xcassets */,
+				AC4AC55F20828EBE002F2059 /* LaunchScreen.storyboard */,
+				AC4AC56220828EBE002F2059 /* Info.plist */,
+			);
+			path = Hearth;
+			sourceTree = "<group>";
+		};
+		AC4AC56A20828EBF002F2059 /* HearthTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4AC56B20828EBF002F2059 /* HearthTests.swift */,
+				AC4AC56D20828EBF002F2059 /* Info.plist */,
+			);
+			path = HearthTests;
+			sourceTree = "<group>";
+		};
+		AC4AC57520828EBF002F2059 /* HearthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4AC57620828EBF002F2059 /* HearthUITests.swift */,
+				AC4AC57820828EBF002F2059 /* Info.plist */,
+			);
+			path = HearthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC4AC55220828EB7002F2059 /* Hearth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4AC57B20828EBF002F2059 /* Build configuration list for PBXNativeTarget "Hearth" */;
+			buildPhases = (
+				AC4AC54F20828EB7002F2059 /* Sources */,
+				AC4AC55020828EB7002F2059 /* Frameworks */,
+				AC4AC55120828EB7002F2059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hearth;
+			productName = Hearth;
+			productReference = AC4AC55320828EB8002F2059 /* Hearth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC4AC56620828EBF002F2059 /* HearthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4AC57E20828EBF002F2059 /* Build configuration list for PBXNativeTarget "HearthTests" */;
+			buildPhases = (
+				AC4AC56320828EBF002F2059 /* Sources */,
+				AC4AC56420828EBF002F2059 /* Frameworks */,
+				AC4AC56520828EBF002F2059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4AC56920828EBF002F2059 /* PBXTargetDependency */,
+			);
+			name = HearthTests;
+			productName = HearthTests;
+			productReference = AC4AC56720828EBF002F2059 /* HearthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC4AC57120828EBF002F2059 /* HearthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4AC58120828EBF002F2059 /* Build configuration list for PBXNativeTarget "HearthUITests" */;
+			buildPhases = (
+				AC4AC56E20828EBF002F2059 /* Sources */,
+				AC4AC56F20828EBF002F2059 /* Frameworks */,
+				AC4AC57020828EBF002F2059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4AC57420828EBF002F2059 /* PBXTargetDependency */,
+			);
+			name = HearthUITests;
+			productName = HearthUITests;
+			productReference = AC4AC57220828EBF002F2059 /* HearthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC4AC54B20828EB7002F2059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Hearth;
+				TargetAttributes = {
+					AC4AC55220828EB7002F2059 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					AC4AC56620828EBF002F2059 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AC4AC55220828EB7002F2059;
+					};
+					AC4AC57120828EBF002F2059 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AC4AC55220828EB7002F2059;
+					};
+				};
+			};
+			buildConfigurationList = AC4AC54E20828EB7002F2059 /* Build configuration list for PBXProject "Hearth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC4AC54A20828EB7002F2059;
+			productRefGroup = AC4AC55420828EB8002F2059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC4AC55220828EB7002F2059 /* Hearth */,
+				AC4AC56620828EBF002F2059 /* HearthTests */,
+				AC4AC57120828EBF002F2059 /* HearthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC4AC55120828EB7002F2059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4AC56120828EBE002F2059 /* LaunchScreen.storyboard in Resources */,
+				AC4AC55E20828EBE002F2059 /* Assets.xcassets in Resources */,
+				AC4AC55C20828EB8002F2059 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4AC56520828EBF002F2059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4AC57020828EBF002F2059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC4AC54F20828EB7002F2059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4AC55920828EB8002F2059 /* ViewController.swift in Sources */,
+				AC4AC55720828EB8002F2059 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4AC56320828EBF002F2059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4AC56C20828EBF002F2059 /* HearthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4AC56E20828EBF002F2059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4AC57720828EBF002F2059 /* HearthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC4AC56920828EBF002F2059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4AC55220828EB7002F2059 /* Hearth */;
+			targetProxy = AC4AC56820828EBF002F2059 /* PBXContainerItemProxy */;
+		};
+		AC4AC57420828EBF002F2059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4AC55220828EB7002F2059 /* Hearth */;
+			targetProxy = AC4AC57320828EBF002F2059 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC4AC55A20828EB8002F2059 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4AC55B20828EB8002F2059 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC4AC55F20828EBE002F2059 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4AC56020828EBE002F2059 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC4AC57920828EBF002F2059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC4AC57A20828EBF002F2059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC4AC57C20828EBF002F2059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hearth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hearth.Hearth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC4AC57D20828EBF002F2059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hearth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hearth.Hearth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC4AC57F20828EBF002F2059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HearthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hearth.HearthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hearth.app/Hearth";
+			};
+			name = Debug;
+		};
+		AC4AC58020828EBF002F2059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HearthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hearth.HearthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hearth.app/Hearth";
+			};
+			name = Release;
+		};
+		AC4AC58220828EBF002F2059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HearthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hearth.HearthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hearth;
+			};
+			name = Debug;
+		};
+		AC4AC58320828EBF002F2059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HearthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hearth.HearthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hearth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC4AC54E20828EB7002F2059 /* Build configuration list for PBXProject "Hearth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4AC57920828EBF002F2059 /* Debug */,
+				AC4AC57A20828EBF002F2059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4AC57B20828EBF002F2059 /* Build configuration list for PBXNativeTarget "Hearth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4AC57C20828EBF002F2059 /* Debug */,
+				AC4AC57D20828EBF002F2059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4AC57E20828EBF002F2059 /* Build configuration list for PBXNativeTarget "HearthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4AC57F20828EBF002F2059 /* Debug */,
+				AC4AC58020828EBF002F2059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4AC58120828EBF002F2059 /* Build configuration list for PBXNativeTarget "HearthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4AC58220828EBF002F2059 /* Debug */,
+				AC4AC58320828EBF002F2059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC4AC54B20828EB7002F2059 /* Project object */;
+}

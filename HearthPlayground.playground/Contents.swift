@@ -2,4 +2,5 @@
 
 import UIKit
 
-var str = "Hello, playground"
+var myString = "Hello, World!"
+print(myString)
